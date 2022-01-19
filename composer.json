@@ -1,5 +1,5 @@
 {
-    "name": "SecQure/ValidateToken",
+    "name": "secqure/validatetoken",
     "type": "library",
     "description": "SecQure Passwordless Library For Validate Auth Token - Email Magiclink, SMS OTP",
     "keywords": ["secqure", "passwordless", "magiclink", "authentication","secuuth"],
