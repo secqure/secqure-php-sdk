@@ -1,5 +1,5 @@
 <?php 
-require_once(__DIR__ . "./vendor/autoload.php"); 
+require_once(__DIR__ . "/vendor/autoload.php"); 
 use Jose\Component\Core\JWK;
 use Jose\Component\Signature\Serializer\JWSSerializerManager;
 use Jose\Component\Signature\Serializer\CompactSerializer;
@@ -48,7 +48,7 @@ use Jose\Component\Signature\Algorithm\RS256;
           $userObj->typ=$claims['typ'];
           $userObj->signInMode=$claims['signInMode'];
           $userObj->userId=$claims['userId'];
-          $userObj->auth_time=$claims['auth_time'];
+          //$userObj->auth_time=$claims['auth_time'];
           //$userObj->auth_time=time();
           $userObj->iat=$claims['iat'];
           return $userObj;
